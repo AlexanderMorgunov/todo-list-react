@@ -1,0 +1,25 @@
+@import '../../variables.scss';
+
+.header {
+    width: 100vw;
+    height: 100px;
+    background-color:$dark_color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    &_h1 {
+        color:$light_color;
+    }
+    &_btn_group {
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+
+        & button {
+            text-align: center;
+            color:$dark_color;
+        }
+    }
+}
